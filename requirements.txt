@@ -5,3 +5,4 @@ pymongo==4.4.0
 motor==3.2.0
 motor[aws]
 ipython
+locust
