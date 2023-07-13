@@ -1,0 +1,7 @@
+pre-commit
+uvicorn==0.22.0
+fastapi==0.100.0
+pymongo==4.4.0
+motor==3.2.0
+motor[aws]
+ipython

@@ -1,0 +1,15 @@
+service_config:
+  # do not change key values or add new key
+  host: 0.0.0.0
+  port: 80
+  workers: 1
+  reload: true
+
+# point this to the dev server if you are testing haifa locally
+local_mongodb_config:
+  MONGODB_USER: ""
+  MONGODB_URL: ""
+  MONGODB_PWD: ""
+  CONNECTION_URI: "mongodb://localhost:27017"
+  REPLICA_SET: ""
+  ENC_KEY: ""
